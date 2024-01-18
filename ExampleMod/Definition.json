@@ -1,0 +1,7 @@
+{
+  "manifestVersion": 1,
+  "id": "Zamu.ExampleMod",
+  "name": "Example Mod",
+  "version": "$(AssemblyVersion)",
+  "assemblies": [ "ExampleMod" ]
+}

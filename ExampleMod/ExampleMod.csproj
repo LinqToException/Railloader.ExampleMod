@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- Optionally, set a few things to your liking -->
+    <!-- <MajorVersion>1</MajorVersion> -->
+    <!-- <MinorVersion>0</MinorVersion> -->
+  </PropertyGroup>
+  <ItemGroup>
+    <GameAssembly Include="Assembly-CSharp" />
+    <GameAssembly Include="Railloader.Interchange" />
+    <GameAssembly Include="Serilog" />
+
+    <GameAssembly Include="UnityEngine.CoreModule" />
+  </ItemGroup>
+</Project>
