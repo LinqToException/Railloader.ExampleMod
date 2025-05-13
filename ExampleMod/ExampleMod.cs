@@ -4,7 +4,7 @@ using UI.Builder;
 
 namespace ExampleMod
 {
-    public class ExampleMod : PluginBase, IUpdateHandler, IModTabHandler
+    public class ExampleMod : PluginBase, IModTabHandler
     {
         ILogger logger = Log.ForContext<ExampleMod>();
 
@@ -23,11 +23,6 @@ namespace ExampleMod
         public override void OnEnable()
         {
             logger.Information("OnEnable() was called!");
-        }
-
-        public void Update()
-        {
-            logger.Verbose("UPDATE()");
         }
 
         public void ModTabDidOpen(UIPanelBuilder builder)
